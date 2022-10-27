@@ -1,1 +1,16 @@
-export class ProductModel {}
+export class ProductModel {
+	image: string;
+	title: string;
+	price: number;
+	oldPrice: number;
+	credits: number;
+	calculateRating: number;
+	description: string;
+	advantages: string;
+	disAdvantages: string;
+	categories: string[];
+	tags: string[];
+	characteristics: {
+		[key: string]: string
+	};
+}
