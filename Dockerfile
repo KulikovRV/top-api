@@ -1,0 +1,8 @@
+FROM node:14-alpine
+WORKDIR /opt/ap
+ADD package.json package.json
+RUN npm install
+ADD  . .
+RUN nom run build
+RUN npm prune --production
+CMD ["node", "./dist/main.js"]
