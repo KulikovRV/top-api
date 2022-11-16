@@ -1,6 +1,6 @@
 version: '3'
 services:
-  top.api:
+  top.api.demo:
     image: top-api-demo:latest
     container_name: top-api
     restart: always
