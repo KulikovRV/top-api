@@ -2,7 +2,7 @@ import { Base, TimeStamps } from '@typegoose/typegoose/lib/defaultClasses';
 import { prop, index } from '@typegoose/typegoose';
 
 export enum TopLevelCategory {
-	Courses = 1,
+	Courses = 0,
 	Services,
 	Books,
 	Products,
